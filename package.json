@@ -3,11 +3,14 @@
   "version": "1.0.0",
   "description": "A command-line wrapper for generating PDF prints and PNG screenshots with Puppeteer.",
   "bin": {
-    "puppeteer": "./index.js"
+    "puppeteer": "index.js"
   },
   "author": "GroupeLM - Lionel Bataille",
   "license": "MIT",
-  "repository": "grouplm/puppeteer-pdf-cli",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GroupeLM/puppeteer-pdf-cli"
+  },
   "dependencies": {
     "file-url": "^4.0.0",
     "is-url": "^1.2.4",
