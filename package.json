@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "name": "puppeteer-pdf-cli",
   "version": "1.0.0",
   "description": "A command-line wrapper for generating PDF prints and PNG screenshots with Puppeteer.",
