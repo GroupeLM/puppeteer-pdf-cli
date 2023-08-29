@@ -1,11 +1,11 @@
 #!/usr/bin/env node
 
-import fileUrl from 'file-url'
-import isUrl from 'is-url'
-import puppeteer from 'puppeteer'
-import parseUrl from 'url-parse'
-import yargs from 'yargs'
-import { hideBin } from 'yargs/helpers'
+import fileUrl from 'file-url';
+import isUrl from 'is-url';
+import puppeteer from 'puppeteer';
+import parseUrl from 'url-parse';
+import yargs from 'yargs';
+import { hideBin } from 'yargs/helpers';
 
 // common options for both print and screenshot commands
 const commonOptions = {
@@ -27,7 +27,8 @@ const commonOptions = {
 	},
 };
 
-const argv = yargs(hideBin(process.argv)).command({
+const argv = yargs(hideBin(process.argv))
+	.command({
 		command: 'print <url> [output]',
 		desc: 'Print an HTML file or URL to PDF',
 		builder: {
