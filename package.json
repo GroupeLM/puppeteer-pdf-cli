@@ -18,5 +18,8 @@
     "puppeteer": "^21.1.0",
     "url-parse": "^1.4.7",
     "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "prettier": "3.0.2"
   }
 }
