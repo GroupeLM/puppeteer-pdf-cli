@@ -195,11 +195,11 @@ function buildLaunchOptions({ sandbox }) {
 	const args = [];
 
 	if (sandbox === false) {
-		args.push('--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage', '--single-process');
+		args.push('--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage');
 	}
 
 	return {
-		args,
+		args: args,
 		headless: 'new',
 	};
 }
