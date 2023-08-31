@@ -17,7 +17,7 @@ const commonOptions = {
 		default: 60 * 1000,
 		number: true,
 	},
-	'wait-until': {
+	waitUntil: {
 		string: true,
 		default: 'load',
 	},
